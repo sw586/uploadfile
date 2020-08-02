@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>中国红河网</title>
+	<link rel="stylesheet" href="./images/common.css">
+	<link rel="stylesheet" href="./images/hh.css">
+	<link rel="stylesheet" type="text/css" href="./images/vh-style.css">
+	<script type="text/javascript" src="./images/jquery.min.js"></script>
+	<script type="text/javascript" src="./images/echarts.js"></script>
+<!-- 	<script type="text/javascript" src="./images/common.js"></script>
+	<script type="text/javascript" src="./images/hh.js"></script>
+	<script type="text/javascript" src="./images/vh-js.js"></script> -->
+	 <script type="text/javascript" src="http://file.component.hhzc.cn/hhcn/script/all_min.js"></script>
+	<script type="text/javascript" src="scripts/gov.js"></script>
+
+	<script type="text/javascript" src="http://www.hh.cn/images/lh.js"></script> 
+	<!-- 飘红 -->
+<!-- 	<style>
+		body{background:url(http://www.hh.cn/images/202005/W020200520836514540560.jpg) repeat-x  center top;}
+	</style> -->
+    <!-- <script type="text/javascript" src="./js/map.js"></script>   -->
+	<base target="_blank">	
+</head>
+<body>
+<!--对联代码 
+	<style type="text/css">
+	/* fixediv */
+	.fixediv{position:fixed;top:140px;z-index:9999;height:216px;width:180px;}
+	*html .fixediv{position:absolute;top:expression(eval(document.documentElement.scrollTop));margin:140px 0 0 0;}
+	.fixediv-l{left:0px;}
+	.fixediv-r{right:0px;}
+	.fixediv .btn{height:25px;background:#CCCCCC;text-align:right;line-height:25px;overflow:hidden;}
+	</style>
+	<div id="Bar1190_big" class="fixediv fixediv-l">
+		<div class="btn"><a href="javascript:void(0);" onClick="bar1190_hidden()"><img src="images/djgbdl.jpg" /> </a> </div>    
+	<a href='http://www.hh.cn' ><IMG src='./images/20190501.jpg' border='0' width='180' height='240' /></a><br><br>
+	</div>
+	<div id="Bar1190_small" class="fixediv fixediv-l" style="width:25px;display:none;">
+		<div class="btn"><a href="javascript:void(0);" onClick="bar1190_show()"><img src="images/djzk_right.jpg" height="180" /></a></div>
+	</div>
+	<div id="Bar11901_big" class="fixediv fixediv-r">
+		<div class="btn"><a href="javascript:void(0);" onClick="bar11901_hidden()"><img src="images/djgbdl.jpg" /></a> </div>
+	<a href='http://www.hh.cn' ><IMG src='./images/20190501.jpg' border='0' width='180' height='240' /></a><br><br>
+	</div>
+	<div id="Bar11901_small" class="fixediv fixediv-r" style="width:25px;display:none;">
+		<div class="btn"><a href="javascript:void(0);" onClick="bar11901_show()"><img src="images/djzk_right.jpg" height="180" /></a></div>	
+	</div>
+	<script type="text/javascript">
+	function bar1190_show(){
+	   document.getElementById('Bar1190_big').style.display='';
+	   document.getElementById('Bar1190_small').style.display='none';
+	}
+	function bar1190_hidden(){
+	   document.getElementById('Bar1190_big').style.display='none';
+	   document.getElementById('Bar1190_small').style.display='';
+	}
+	var autohide1190 = setTimeout("bar1190_hidden()",10000);
+	function bar11901_show(){
+	   document.getElementById('Bar11901_big').style.display='';
+	   document.getElementById('Bar11901_small').style.display='none';
+	}
+	function bar11901_hidden(){
+	   document.getElementById('Bar11901_big').style.display='none';
+	   document.getElementById('Bar11901_small').style.display='';
+	}
+	var autohide11901 = setTimeout("bar11901_hidden()",10000);
+	</script> -->
+	<div class="centerWidth">
+		<div class="vh-fade-list">
+			
+			<div class="ttt">
+                        <a href="http://www.xinhuanet.com/"><img style="width:1000px;height:80px;" src="http://www.hh.cn/syhf/dbhf/202005/W020200520404508770786.jpg" /></a>
+            </div>
+            
+			<div class="ttt">
+                        <a href="http://www.hh.cn/zt/2019/20200515/"><img style="width:1000px;height:80px;" src="http://www.hh.cn/syhf/dbhf/202005/W020200516111483060516.png" /></a>
+            </div>
+            
+			<div class="ttt">
+                        <a href="http://www.hh.cn/zt/2019/2015_01/"><img style="width:1000px;height:80px;" src="http://www.hh.cn/syhf/dbhf/202003/W020200330401877714181.jpg" /></a>
+            </div>
+            
+			<div class="ttt">
+                        <a href="http://www.hh.cn/zt/2019/2019_06/"><img style="width:1000px;height:80px;" src="http://www.hh.cn/syhf/dbhf/201909/W020190923543426942381.png" /></a>
+            </div>
+            
+			<div class="ttt">
+                        <a href="http://www.hh.cn/zt/2019/04/index.html"><img style="width:1000px;height:80px;" src="http://www.hh.cn/syhf/dbhf/201904/W020190412580223589501.jpg" /></a>
+            </div>
+            
+		</div>
+		<!-- logo search -->
+		<div class="vh-logo-search clearfix">
+			<a class="logo" href="http://www.hh.cn/">
+				<img src="http://www.hh.cn/images/vh-logo-img.png" />
+			</a>
+			
+			<div class="vh-search-list rt">
+				<!--<div class="vh-select-list lf">
+					<p class="tag">标题</p>
+					<ul class="list">
+						<li><a href="javascript:;">选中1</a></li>
+						<li><a href="javascript:;">选中2</a></li>
+						<li><a href="javascript:;">选中3</a></li>
+						<li><a href="javascript:;">选中4</a></li>
+						<li><a href="javascript:;">选中5</a></li>
+					</ul>
+				</div>-->
+				<div class="vh-select-word lf">
+<input class="word" type="text" id="textfield" maxlength="" style="border-left: 1px solid #dfdfdf;" onkeydown="if(event.keyCode==13){submitsearch();}" onfocus="if(this.value=='请输入关键词'){this.value='';}" onblur="if(this.value==''){this.value='请输入关键词';}" placeholder="请输入关键词" />
+<input class="sear-btn" type="button" onclick="submitsearch()" value="搜索" />
+				</div>
+                <script type="text/javascript">
+		// $(function() {
+		// 		//重置检索词
+		// 		$(".nnp-reset-btn").click(function() {
+		// 			$('#textfield').val('');
+		// 		});
+		// 	});
+
+	//检索
+	function submitsearch(){
+
+		var result = $("#textfield").val(); //获取检索词
+		result = $.trim(result); //去掉空格
+		console.log(result);
+console.log("东方"+result);
+		//判断检索词
+		var reg = /[`~!@#$%^&*_+<>{}\/'[\]]/im;
+		if (reg.test(result)) {
+			alert('您输入的信息包含非法字符!');
+			return false;
+		}
+		if (result == "请输入关键字" || result == "" || result == null) {
+			alert("请输入检索条件!");
+			return false;
+		} else {
+			result = result.replace("-", "\-");
+			result = result.replace("(", "\(");
+			result = result.replace(")", "\)");
+		}
+
+		//跳转搜索页面
+		window.location.href = "http://www.hh.cn/gy/js/index.html?channelid=232715&searchword=" + encodeURI(result);}
+				</script>
+			</div>
+		</div>
+<style>
+.vh-logo-search {
+    height: 60px;
+    width: 100%;
+}
+.vh-logo-search a.logo {
+    float: left;
+    width: 130px;
+    height: 50px;
+    margin-top: 5px;
+}
+.vh-search-list {
+    height: 19px;
+    width: 350px;
+    margin-top: 15px;
+}
+.vh-logo-search .zq-btn {
+    margin: 16px 0 0 17px;
+}
+
+.vh-logo-search .zq-btn {
+    width: auto;
+}
+</style>
+		<!-- nav -->
+		<div class="vh-nav-list indexnav clearfix">
+			<a href="http://www.hh.cn/"><span>首页</span></a>
+			<a href="http://www.hh.cn/xw/"><span>新闻</span></a>
+			<a href="http://www.hh.cn/zt/qtzt/"><span>专题</span></a>
+			<a href="http://www.hh.cn/zq/"><span>州情</span></a>
+			<a href="http://www.hh.cn/wh/"><span>文化</span></a>
+			<a href="http://www.hh.cn/hhrm/"><span>融媒</span></a>
+			<a href="http://www.hh.cn/hhsp/"><span>视频</span></a>
+			<a href="http://tuku.hh.cn/"><span>图库</span></a>
+			<a href="http://www.hh.cn/sp/"><span>时评</span></a>
+			<a href="http://www.honghe.travel/"><span>旅游</span></a>
+			<a href="http://www.hh.cn/hy/"><span>红云</span></a>
+            <a href="http://www.hh.cn/tdgg/"><span>电网</span></a>
+            <a href="http://www.hh.cn/jkq/"><span>经开区</span></a>
+		</div>	
+		<div class="main">
+			<div class="index-headline">
+				<div class="index-headline-tab lf">
+			
+				
+				<a href="http://www.hh.cn/xw/tt/202008/t20200801_871433.html" target="_blank"><img height="90" width="750" src="http://www.hh.cn/xw/tt/202008/W020200801674802508727.jpg" alt="时政微视频丨统帅和士兵" /></a>
+					
+
+				</div>
+				<a href="http://www.xinhuanet.com/politics/xxjxs/"><img style="float: right;margin-top: 7px;" src="./images/img2.png" /></a>
+			</div>
+			<!-- 首页横幅位置一 -->
+<!-- 			
+			<div class="index-banner1  clearfix">
+				<a class="lf" href="http://www.hh.cn/zt/2019/20200121/"><img style="width:496px;height:80px;" src="./syhf/dhf/201912/W020200121625137014597.jpg" /></a><a class="lf" href="http://www.hh.cn/zt/2019/2015_01/"><img style="width:496px;height:80px;" src="./syhf/dhf/202001/W020200113543396666001.jpg" /></a>
+				<a class="rt" href="http://www.hh.cn/zt/2019/2020_01/"><img style="width:496px;height:80px;" src="./syhf/dhf/201909/W020200108554149359158.jpg" /></a>
+			</div>
+			 --> 
+			<div class="index-banner1     clearfix" >
+				<div id="tttt" class="lf"  style="width:496px;height:80px;">					
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/20200721/"><img src="http://www.hh.cn/zt/qtzt/202007/W020200721731881880046.jpg" /></a>
+				
+				
+					<a style="display: block;"  href="http://politics.people.com.cn/GB/8198/433258/index.html"><img src="http://www.hh.cn/zt/qtzt/202007/W020200721345671122866.jpg" /></a>
+									
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/20200624/"><img src="http://www.hh.cn/zt/qtzt/202006/W020200624397099905005.jpg" /></a>
+					
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/20200408/"><img src="http://www.hh.cn/syhf/dhf/202004/W020200408559924756377.jpg" /></a>
+					 		
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/yqfk/"><img src="http://www.hh.cn/syhf/dhf/202001/W020200207755227196394.jpg" /></a>
+						
+				</div>
+				<script language="javascript">new $o.slide("tttt",{color:'#000'},false);</script> 				
+				<!-- 
+				<div class="bbb rt" style="height:80px;width:496px"><a class="rt" href="javascript:void(0);"><img style="width:496px;height:80px;" src="" /></a>
+                                </div>
+				 -->
+				<!-- <div class="bbb rt" style="height:80px;width:496px"><iframe src="http://www.hh.cn/images/30.html" width="496"   height="80"  scrolling="No" frameborder="0"></iframe></div> -->
+				
+				<div id="iiii" class="rt"  style="width:496px;height:80px;">
+				
+					<a style="display: block;"  href="http://www.hh.cn/gg/ggej/202007/t20200729_870573.html"><img src="http://www.hh.cn/syhf/dhf/202007/W020200729547351273462.jpg" /></a>
+									
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/2018_01/"><img src="http://www.hh.cn/zt/qtzt/202007/W020200722393080681632.jpg" /></a>
+				
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/30200321/"><img src="http://www.hh.cn/syhf/dhf/202003/W020200323550574168526.jpg" /></a>
+				
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/20200405/"><img src="http://www.hh.cn/syhf/dhf/202004/W020200403769722307997.jpg" /></a>
+				
+				
+					<a style="display: block;"  href="http://www.hh.cn/zt/2019/2019_05/"><img src="http://www.hh.cn/zt/qtzt/201908/W020200423565855400555.jpg" /></a>
+				
+				
+					<a style="display: block;"  href="https://www.12377.cn/"><img src="http://www.hh.cn/zt/qtzt/202005/W020200519612816774350.png" /></a>
+				
+				</div>
+				<script language="javascript">new $o.slide("iiii",{color:'#000'},false);</script> 
+			</div> 
+			<div class="index-banner2">
+			
+				<a href="http://xfservice.yn.gov.cn/gateway/indexIframe.do?code=532500000000&url=/anonymous/petitionDept.do&type=5#"><span>书记州长信箱</span></a>
+				<a href="./ldjj/"><span>领导集锦</span></a>
+				<a href="http://epaper.hh.cn/"><img style="padding-top: 12px;" src="./images/img5.png" /></a>
+				<a href="./hhrdtzb/	"><span>HHR直播</span></a>
+				<a href="http://www.hhtv.cc/cms/live/13810508"><span>HHTV直播</span></a>
+
+				<!-- <a href="http://tv.cctv.com/live/cctv1/"><span>CCTV直播</span></a> -->
+				<a href="./hhrx/"> <img style="padding-top: 12px;" src="./images/img6.png" /></a>
+			</div> 
+			<div><a href="http://www.hh.cn/zt/2019/20200119/" target="_blank"><img src="http://www.hh.cn/images/202004/W020200507405288641519.jpg" /></a></div> 
+			<div class="vh-news-head mt20 clearfix">		
+					
+					<!-- <a class="tit">头条</a> -->
+				<!-- <div class="tit"><img src="http://www.hh.cn/images/201906/W020190614589968813415.jpg" border="0" width="105" height="65" /></div>
+				
+				<div class="vh-hnews-cons lf" style="text-align:  center;">
+					
+					<a href="  http://www.hh.cn/xw/hhtt/202007/t20200731_871315.html"  class="item e">巩固军政军民关系 同心协力建设新时代团结进步美丽红河</a>
+					
+					<a href="  http://www.hh.cn/xw/hhtt/202007/t20200731_871316.html"  class="item e">努力推动新时代红河国防和后备力量建设高质量发展</a>
+					
+					<a href="  http://www.hh.cn/xw/hhtt/202007/t20200731_871115.html"  class="item e">千方百计防范化解债务风险 确保经济社会平稳健康发展</a>
+					
+				</div> -->				
+					<div id="zntt"  style="overflow: hidden; position: relative;width:1000px;height:65px;" >
+							
+						<a  href="http://www.hh.cn/xw/hhtt/202007/t20200731_871315.html"><img style="width:1000px;height:65px;" src="./xw/hhtt/202007/W020200731818649365630.jpg" /></a>				
+						<a  href="http://www.hh.cn/xw/hhtt/202007/t20200731_871316.html"><img style="width:1000px;height:65px;" src="./xw/hhtt/202007/W020200731820824067377.jpg" /></a>				
+						<a  href="http://www.hh.cn/xw/hhtt/202007/t20200731_871115.html"><img style="width:1000px;height:65px;" src="./xw/hhtt/202007/W020200731000290921363.jpg" /></a>						
+					</div>
+						
+					<script language="javascript">
+						new $o.slide("zntt",{color:'#000'},false);
+					</script> 
+
+
+			</div>
+			<div class="index-wrap1 mt20 clearfix">
+				<div class="index-wrap1-col1 lf">
+					<div  class="index-newsbox-t  clearfix">						
+						<a class="tit cur" href="./xw/szyw/">时政要闻</a>
+					</div>
+					<div class="index-wrap1-box mt10"> 
+					<!--  <h1><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871311.html">毫不松懈抓好安全生产 全力维护人民群众...</a></h1>
+					 <h1><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871312.html">省委第九巡视组巡视开远市工作动员会召开</a></h1>
+					 <h1><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871313.html">省委第九巡视组巡视弥勒市工作动员会召开</a></h1>
+					 -->
+						<ul class="index-wrap1-l"> 
+						
+							<li><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871311.html">毫不松懈抓好安全生产 全力维护人民群众生命...</a></li>
+                        
+							<li><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871312.html">省委第九巡视组巡视开远市工作动员会召开</a></li>
+                        
+							<li><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871313.html">省委第九巡视组巡视弥勒市工作动员会召开</a></li>
+                        
+							<li><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871314.html">开放红河大步行</a></li>
+                        
+						</ul>						
+					</div>
+					<div class="index-wrap1-box mt20"> 
+						
+						<h1><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871318.html">我州举行2020年“八一”军事日活动</a></h1>
+						<ul class="index-wrap1-l">
+							<li><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871319.html">州委财经委员会召开2020年第二次全体会...</a></li><li><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871320.html">罗萍在全州安全生产电视电话会议上指出 ...</a></li><li><a href="http://www.hh.cn/xw/szyw/202007/t20200731_871321.html">省委第九巡视组巡视个旧市工作动员会召开</a></li>							
+						</ul>
+                         
+					</div>
+				</div>
+				<div class="index-wrap1-col2 rt">
+					<ul class="index-wrap1-pic">
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200731_871315.html"><img src="./xw/szywtplb/202007/W020200731822947707234.jpg" style="width:640px;height:340px;" /></a></li>
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200730_871093.html"><img src="./xw/szywtplb/202007/W020200730772619724361.JPG" style="width:640px;height:340px;" /></a></li>
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200727_870226.html"><img src="./xw/szywtplb/202007/W020200727821635857899.jpg" style="width:640px;height:340px;" /></a></li>
+						
+						<li><a href="http://www.hh.cn/xw/szyw/202007/t20200719_868048.html"><img src="./xw/szywtplb/202007/W020200719845281831247.jpg" style="width:640px;height:340px;" /></a></li>
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200718_867884.html"><img src="./xw/szywtplb/202007/W020200718787351936698.jpg" style="width:640px;height:340px;" /></a></li>
+						
+					</ul>
+					<ul class="index-wrap1-pictt">
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200731_871315.html">红河州举行2020 年“八一”军事日活动</a></li>
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200730_871093.html">我州92个重点项目集中开工</a></li>
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200727_870226.html">元蔓高速公路红河至元阳段建成试通车</a></li>
+						
+						<li><a href="http://www.hh.cn/xw/szyw/202007/t20200719_868048.html">加强边境疫情防控 创新驱动经济发展</a></li>
+						
+						<li><a href="http://www.hh.cn/xw/hhtt/202007/t20200718_867884.html">把党的基层组织建设得更加坚强有力</a></li>
+						
+					</ul>
+					<ul class="index-wrap1-pg clearfix">
+						<li class="cur">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<div class="all rt">
+							<span class="line">/</span>
+							<span class="total">5</span>
+						</div>
+					</ul>
+					<img class="prev" src="./images/icon4.png" />
+					<img class="next" src="./images/icon5.png" />
+				</div>
+			</div>
+
+
+<!-- 
+			<div class="index-banner1 aa mt20  clearfix" style="margin-top: 10px;">
+				<a class="lf" href="http://www.hh.cn/zt/2019/20200408/"><img style="width:496px;height:80px;" src="./syhf/dhf/202004/W020200408559924756377.jpg" /></a><a class="lf" href="http://www.hh.cn/zt/2019/20200405/"><img style="width:496px;height:80px;" src="./syhf/dhf/202004/W020200403769722307997.jpg" /></a>
+				<a class="rt" href="http://www.hh.cn/zt/2019/30200321/"><img style="width:496px;height:80px;" src="./syhf/dhf/202003/W020200323550574168526.jpg" /></a><a class="rt" href="http://www.hh.cn/zt/2019/yqfk/"><img style="width:496px;height:80px;" src="./syhf/dhf/202001/W020200207755227196394.jpg" /></a>
+			</div>
+ -->
+
+
+			
+
+			
+
+				
+<!-- 			<div class="clearfix" id="gqhf" style="width: 1000px; margin-top:10px; height: 80px;overflow: hidden; position: relative;">	
+			<a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631467608043.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631468309079.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631469138509.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631469832417.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631470554927.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631471213828.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631471850996.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631472502364.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631473221799.jpg" /></a><a><img style="width:1000px;height:80px;" src="http://www.hh.cn/images/202005/W020200515631473921372.jpg" /></a>	
+			</div>
+			<script language="javascript">
+				new $o.slide("gqhf",{color:'#000'},false);
+			</script> -->
+
+			<div class="index-wrap2 mt20 clearfix">
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./xw/shxw/">社会新闻</a>
+					</div>
+					<div class="index-newsbox-c">
+						
+						<div class="index-newsbox-img">
+														
+							<a href="http://www.hh.cn/gg/ggej/202007/t20200731_871263.html"><img src=http://www.hh.cn/xw/shxw/202007/W020200731639625145062.jpg /><p>《我的红河故事》征集活动火...</p></a>
+							
+						</div>
+						
+						<ul class="index-newsbox-l mt30">
+							
+							<li><a href="http://www.hh.cn/xw/shxw/202008/t20200801_871329.html" >红河革命军事馆开馆 再现红河革命峥嵘岁月</a></li>
+							
+							<li><a href="http://www.hh.cn/xw/shxw/202008/t20200801_871330.html" >石屏“1+4”动态监测 稳固脱贫成效</a></li>
+							
+							<li><a href="http://www.hh.cn/xw/shxw/202008/t20200801_871331.html" >小小明白卡 算清 “致贫账”</a></li>
+							
+							<li><a href="http://www.hh.cn/xw/shxw/202008/t20200801_871332.html" >美丽乡村建设让村庄变美了</a></li>
+							
+							<li><a href="http://www.hh.cn/xw/shxw/202008/t20200801_871333.html" >弥勒：交通安全宣传进彝村</a></li>
+							
+							<li><a href="http://www.hh.cn/xw/shxw/202008/t20200801_871334.html" >《生活小常识》夏季吃苦 胜似进补</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t hh-tit">
+						<a class="tit cur" href="./xw/gnxw/">国内</a>
+						<a class="tit" href="./xw/gjxw/">国际</a>
+					</div>
+					<div class="hh-tab">
+						<div class="index-newsbox-c hh-item">
+							
+							<ul class="index-newsbox-l">
+								
+									<li><a href="http://www.hh.cn/xw/gnxw/202007/t20200730_871046.html">【实践新论】进一步开放市场 促进形成“...</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gnxw/202008/t20200801_871436.html">国家卫生健康委组派“内地核酸检测支援...</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gnxw/202008/t20200801_871437.html">全民免费检测、协助建“方舱”、核酸检...</a></li>
+								
+									<li><a href="https://v.qq.com/x/cover/mzc00200xmxwk6j/u3127wsu9ls.html">纪录片《2019阅兵盛典》</a></li>
+								
+									<li><a href="https://mp.weixin.qq.com/s/313RxKrIjZHgjxiKNkHnnA">使命在肩 强军有我！献给中国人民解放军...</a></li>
+								
+									<li><a href="https://xhpfmapi.zhongguowangshi.com/vh512/share/9293203?channel=weixin&from=singlemessage">统帅的检阅 强军的号角</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gnxw/202008/t20200801_871421.html">北斗闪耀全球 中华勇于追梦</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gnxw/202008/t20200801_871378.html">慢慢看完这段视频，记住他们的样子</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gnxw/202008/t20200801_871377.html">时政微视频丨闪耀吧 中国人的北斗星辰</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gnxw/202008/t20200801_871368.html">疫情严峻，香港特区政府做了这个决定！</a></li>
+								
+									<li><a href="https://xhpfmapi.zhongguowangshi.com/vh512/share/9292666?channel=weixin">香港各界对推迟特区立法会选举表示理解</a></li>
+								
+							</ul>
+							
+						</div>
+						<div class="index-newsbox-c hh-item">
+							
+							<ul class="index-newsbox-l">
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202008/t20200801_871344.html">美政府有意宣传接种新冠疫苗</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202008/t20200801_871345.html">美施压多国排斥华为 外交部：要像抵制种...</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202008/t20200801_871346.html">国防部：美方南海“兴风作浪” 中方坚定...</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202008/t20200801_871347.html">特朗普提出推迟总统选举可能性</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202007/t20200724_869555.html">美军承认战机拦截伊朗客机</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202007/t20200729_870556.html">意大利延长国家紧急状态以防控新冠疫情</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202007/t20200729_870568.html">韩美通过修订后的2020年“韩美导弹指南”</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202007/t20200724_869553.html">谭德塞：蓬佩奥有关世卫组织的言论“完...</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202007/t20200724_869554.html">第75届联大一般性辩论将以播放讲话录像...</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202007/t20200721_868646.html">美国多地举行“为黑人生命而罢工”活动</a></li>
+								
+									<li><a href="http://www.hh.cn/xw/gjxw/202007/t20200721_868647.html">韩国第一颗军事通信卫星成功发射升空</a></li>
+								
+							</ul>
+							
+						</div>
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./xw/ynxw/">云南新闻</a>
+					</div>
+					<div class="index-newsbox-c">
+						
+						<ul class="index-newsbox-l">
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200731_871289.html">昆明抢先机走出去讲“春城故事”</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200731_871288.html">【云视理论】建设新时代能担当重任的干...</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200731_871287.html">【云视网评】读懂“旅游市场回暖”背后...</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200731_871286.html">上半年云南省居民收入和消费由负转正 居...</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200731_871238.html">各地各部门负责人谈在危机中育新机 于变...</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200730_871073.html">云南“生态文明排头兵”建设迈上法制化轨道</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200730_871072.html">47亿元！云南下达资金支持边境地区加快发展</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200730_871071.html">动海报丨爱国卫生动起来，健康文明一起来！</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200730_871070.html">【地评线】彩云网评：书写绿水青山文章 ...</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200730_871069.html">昆明实施惠台措施78条 保障台商台企投资</a></li>
+							
+								<li><a href="http://www.hh.cn/xw/ynxw/202007/t20200729_870732.html">聚焦云南“上半年怎么看、下半年怎么干...</a></li>
+							
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 短横幅位置二 -->			
+			<div class="index-banner1   mt30  clearfix" style="margin-top: 20px;">				
+				<div id="ssss" class="lf" style="height:80px;width:496px">							
+					
+						<a style="display: block;"  href="http://hhlsw.org/webapp/#/honour/index?page=1&filter&scope&sort"><img src="http://www.hh.cn/syhf/dhf/201903/W020190312545440292147.jpg" /></a>
+					
+					
+						<a style="display: block;"  href="http://hhlsw.org/webapp/#/martyr/index"><img src="http://www.hh.cn/syhf/dhf/201903/W020190312545833791196.jpg" /></a>
+					
+					
+						<a style="display: block;"  href="http://www.hh.cn/hhsp/05/201904/t20190418_732098.html"><img src="http://www.hh.cn/syhf/dhf/201904/W020190418612477584670.jpg" /></a>
+						
+				</div>
+				<script language="javascript">new $o.slide("ssss",{color:'#000'},false);</script> 
+								
+				<div id="gggg" class="rt" style="height:80px;width:496px">							
+					
+						<a style="display: block;"  href="http://www.hh.cn/zt/2019/13/"><img src="http://www.hh.cn/syhf/dhf/201908/W020191011596118738303.jpg" /></a>
+					
+				</div>
+				<script language="javascript">new $o.slide("gggg",{color:'#000'},false);</script> 				
+			</div>	
+		
+			<div class="index-wrap2 mt20 clearfix">
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./zt/qtzt/">专题</a>
+					</div>
+					<div class="index-newsbox-c">
+						<div class="index-newsbox-banner">
+							
+							<a href="http://www.hh.cn/zt/2019/2018_01/"><img src="./zt/qtzt/202007/W020200722393080681632.jpg" style="width:280px;height:50px;" /></a>
+							
+						</div>
+						<ul class="index-newsbox-l mt10">
+							
+								<li><a href="http://www.hh.cn/zt/2019/20200721/">全面提升农村人居环境 建设生态宜居美丽...</a></li>
+							
+								<li><a href="http://politics.people.com.cn/GB/8198/433258/index.html">纪念中国人民抗日战争胜利暨世界反法西...</a></li>
+							
+								<li><a href="http://www.hh.cn/zt/2019/20200624/">走向我们的小康生活</a></li>
+							
+								<li><a href="http://www.hh.cn/zt/2019/2019_05/">创建全国文明城市</a></li>
+							
+								<li><a href="http://www.hh.cn/zt/2019/20200405/">2020全民国家安全教育日</a></li>
+							
+								<li><a href="http://www.hh.cn/zt/2019/20200408/">文明健康有你有我</a></li>
+							
+								<li><a href="http://www.hh.cn/zt/2019/20200403/">战疫英雄归来</a></li>
+							
+								<li><a href="http://www.hh.cn/zt/2019/28/">中共红河州委八届六次全体会议</a></li>
+							
+								<li><a href="http://www.hh.cn/zb2.html">金平蝴蝶谷慢直播</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="lf">
+					<div class="index-newsbox" style="height: 218px;">
+						<!-- 时评开始 -->
+						<div class="index-newsbox-t">
+							<a class="tit cur" href="./sp/"><img src="http://file.component.hhzc.cn/hhcn/image/时评标题.jpg" alt="" /></a>
+						</div>
+						<div class="index-newsbox-c">
+							
+								<ul class="index-newsbox-l">
+									
+										<li><a href="http://www.hh.cn/sp/202007/t20200710_865629.html">“教科书式自救”是安全教育的典范</a></li>
+										
+										<li><a href="http://www.hh.cn/sp/202007/t20200710_865633.html">这群“缺点满满”的志愿者，让我们看到...</a></li>
+										
+										<li><a href="http://www.hh.cn/sp/202007/t20200710_865637.html">新华网评：多元就业需要多一些包容和鼓励</a></li>
+										
+										<li><a href="http://www.hh.cn/sp/202007/t20200707_864731.html">共赴这场特殊的高考</a></li>
+										
+									</ul>
+							
+						</div>
+							<!-- 时评结束 -->					
+					</div>
+					
+					<div class="index-newsbox  mt20" style="height: 218px;">
+						<div class="index-newsbox-t hh-tit">
+							<a class="tit cur" href="./gg/ggej/">公告</a>
+							<a class="tit" href="./gg/gs/">公示</a>
+						</div>
+						<div class="hh-tab">
+							<div class="index-newsbox-c hh-item">
+								
+								<ul class="index-newsbox-l">
+									
+										<li><a href="http://www.hh.cn/gg/ggej/202007/t20200731_871263.html">《我的红河故事》征集活动火热进行中！</a></li>
+									
+										<li><a href="http://www.hh.cn/gg/ggej/202007/t20200729_870573.html">中国建水2020年储备土地推介会公告</a></li>
+									
+										<li><a href="http://www.hh.cn/gg/ggej/202007/t20200729_870543.html">州直机关民族团结进步模范集体和模范个...</a></li>
+									
+										<li><a href="http://www.hh.cn/gg/ggej/202007/t20200719_868042.html">2020年脱贫攻坚督查公告</a></li>
+									
+								</ul>
+								
+							</div>
+							<div class="index-newsbox-c hh-item">
+								
+								<ul class="index-newsbox-l">
+									
+										<li><a href="http://www.hh.cn/gaj_01/">红河州公安局“双随机”抽查公示</a></li>
+									
+										<li><a href="http://www.hh.cn/gg/gs/202007/t20200728_870497.html">州直机关民族团结进步模范集体和模范个...</a></li>
+									
+										<li><a href="http://www.hh.cn/gg/gs/202006/t20200615_859259.html">2020年红河州推荐全国脱贫攻坚奖候选名...</a></li>
+									
+										<li><a href="http://www.hh.cn/gg/gs/202006/t20200602_855422.html">绿春县招聘180名教师，6月13日考试</a></li>
+									
+								</ul>
+								
+							</div>
+						</div>				
+					</div>						
+				</div>
+								
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="">县市之窗</a>
+						<div class="index-newsbox-pg index-pg-tit index-pg-tit2 mt10 rt">
+							<span class="prev"></span>
+							<span class="next"></span>
+						</div>
+					</div>
+					<div style="height: 380px" class="index-newsbox-c index-pg-tab index-pg-tab2">
+						<div id="hhMapEchart" style="height: 380px" class=" index-pg-item index-pg-item2">
+						</div>
+						<!-- <div class=" index-pg-item index-pg-item2">
+							<img src="./images/img12.png" />
+						</div> -->
+					</div>
+				</div>
+			</div>
+<!--
+			<div class="index-banner4">
+
+				<div class="index-banner4-img mt20">
+					<a href="http://www.hh.cn/zt/2019/xczjc2019/"><img style="width:1000px;height:80px;" src="./syhf/chf/201902/P020190215642203616017.png" /></a><a href="http://www.hh.cn/tdgg/"><img style="width:1000px;height:80px;" src="./syhf/chf/201902/P020190215642209190889.png" /></a><a href="http://www.hh.cn/zt/2018/01/"><img style="width:1000px;height:80px;" src="./syhf/chf/201902/P020190215642214213263.jpg" /></a><a href="http://www.hh.cn/zt/2015/14/"><img style="width:1000px;height:80px;" src="./syhf/chf/201902/P020190215642220084922.jpg" /></a><a href="http://www.hh.cn/zt/2017/12/"><img style="width:1000px;height:80px;" src="./syhf/chf/201902/P020190215642225355197.jpg" /></a>
+				</div>
+
+
+				<ul class="index-banner4-pg">
+					<li class="cur"></li>
+					<li></li><li></li><li></li><li></li>
+				</ul>
+
+			</div>
+-->
+			<!-- <div class="index-wrap2 mt20 clearfix">
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./sp/">时评</a>
+					</div>
+					<div class="index-newsbox-c">
+						
+							<ul class="index-newsbox-l">
+								
+									<li><a href="http://www.hh.cn/sp/202007/t20200710_865629.html">“教科书式自救”是安全教育的典范</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202007/t20200710_865633.html">这群“缺点满满”的志愿者，让我们看到...</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202007/t20200710_865637.html">新华网评：多元就业需要多一些包容和鼓励</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202007/t20200707_864731.html">共赴这场特殊的高考</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202007/t20200707_864734.html">不能借特色小镇之名另搞一套</a></li>
+								
+							</ul>
+						
+							<ul class="index-newsbox-l">
+								
+									<li><a href="http://www.hh.cn/sp/202007/t20200707_864735.html">“三支一扶”，在基层播撒青春梦想</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202007/t20200707_864736.html">今天，让我们重温觉醒的力量</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202006/t20200617_859521.html">都去开会了，谁来落实？</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202006/t20200617_859522.html">小小出入证，治理大文章</a></li>
+								
+									<li><a href="http://www.hh.cn/sp/202006/t20200617_859523.html">降低物流成本，助力经济回暖</a></li>
+								
+							</ul>
+						
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t clearfix">
+						<a class="tit cur" href="./zq/hhtp/">红河图片</a>
+						<div class="index-newsbox-pg index-pg-tit index-pg-tit1 mt10 rt">
+							<span class="prev"></span>
+							<span class="next"></span>
+						</div>
+					</div>
+					<div class="index-newsbox-c index-pg-tab index-pg-tab1">
+						
+							<div class="index-newsbox-pic index-pg-item index-pg-item1 clearfix">
+								
+								<a class="a1" href="http://www.hh.cn/zq/hhtp/201812/t20181219_380633.html"><img src="./zq/hhtp/201812/W020181219534994730504.jpg" width="280px" height="180px" /><p>红河最美公园</p></a>
+								
+								
+								<a class="a2" href="http://www.hh.cn/zq/hhtp/201812/t20181210_380632.html"><img src="./zq/hhtp/201812/W020181210479962408577.jpg" width="280px" height="180px" /><p>异龙“鸥”遇</p></a>
+								
+								
+								<a class="a3" href="http://www.hh.cn/zq/hhtp/201810/t20181016_361668.html"><img src="./zq/hhtp/201810/W020181016531366464235.jpg" width="280px" height="180px" /><p>最美红河月</p></a>
+								
+								<a class="a3" href="http://www.hh.cn/zq/hhtp/201809/t20180912_361666.html"><img src="./zq/hhtp/201809/W020180912634002051573.jpg" width="280px" height="180px" /><p>开远西山采花山</p></a>
+								
+							</div>
+						
+							<div class="index-newsbox-pic index-pg-item index-pg-item1 clearfix">
+								
+								<a class="a1" href="http://www.hh.cn/zq/hhtp/201809/t20180912_361665.html"><img src="./zq/hhtp/201809/W020180912622245403761.jpg" width="280px" height="180px" /><p>凤凰湖飞鸟图</p></a>
+								
+								
+								<a class="a2" href="http://www.hh.cn/zq/hhtp/201809/t20180912_361664.html"><img src="./zq/hhtp/201809/W020180912615874666132.jpg" width="280px" height="180px" /><p>马蹄声中的传奇古...</p></a>
+								
+								
+								<a class="a3" href="http://www.hh.cn/zq/hhtp/201807/t20180720_361662.html"><img src="./zq/hhtp/201807/W020180720554954094295.jpg" width="280px" height="180px" /><p>魔幻南湖</p></a>
+								
+								<a class="a3" href="http://www.hh.cn/zq/hhtp/201807/t20180718_361661.html"><img src="./zq/hhtp/201807/W020180718679257103294.jpg" width="280px" height="180px" /><p>听夏天里巡检司缱...</p></a>
+								
+							</div>
+						
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./hy/">红云红河时讯</a>
+					</div>
+					<div class="index-newsbox-c"> -->
+						<!-- <div class="index-newsbox-banner">
+							<a href="./hy/"><img src="" /></a>
+						</div> -->
+						<!-- 
+							<ul class="index-newsbox-l">
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200730_870962.html">红云红河集团党委副书记、总经理杨煜文...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870659.html">红云红河集团与保山市公司进行工商座谈</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870658.html">红云红河集团与昆明市税务局税企共建聚合力</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870657.html">红云红河集团工会召开第四届工会委员（...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870655.html">红云红河集团工会举办第四届工会委员（...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870028.html">红云红河集团2020年烟叶评级职业技能竞...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870027.html">曲靖市烟草专卖局到红云红河集团交流座谈</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870026.html">红云红河集团党委委员、副总经理王旭东...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870025.html">云南中烟工业有限公司党组副书记、总经...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870024.html">武怡同志参加昆烟二季度党委理论学习中...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870023.html">云南中烟党组书记、董事长陈卫东对集团...</a></li>
+								
+							</ul>
+						
+					</div>
+				</div>
+			</div>	 -->
+			<div class="index-wrap2 mt20 clearfix">
+				<div class="index-newsbox lf" style="width:620px;">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="http://tuku.hh.cn/">红河图库</a>
+					</div>
+					<div class="index-newsbox-c">
+						<table>
+							<tr>
+								<td><iframe src="http://tuku.hh.cn/index.php/referer/1" style="width:620px;height:355px; overflow:hidden; border:none;"></iframe> </td>								
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./hy/">红云红河时讯</a>
+					</div>
+					<div class="index-newsbox-c">
+						<!-- <div class="index-newsbox-banner">
+							<a href="./hy/"><img src="" /></a>
+						</div> -->
+						<!-- <a href="https://club.hyhhgroup.com/club/indexts.php" target="_blank"><img width="280" height="98" src="http://file.component.hhzc.cn/hhcn/image/hyhhjlb.jpg" alt="" /></a> -->
+						
+						<a href="https://club.hyhhgroup.com/wxhd/ljhd_l2/index.php" target="_blank"><img width="280" height="98" src="http://file.component.hhzc.cn/hhcn/image/垃圾分类活动-通用模板---副本.png" alt="" /></a>						
+
+						
+							<ul class="index-newsbox-l" style=" margin-top: 18px;" >
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200730_870962.html">红云红河集团党委副书记、总经理杨煜文...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870659.html">红云红河集团与保山市公司进行工商座谈</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870658.html">红云红河集团与昆明市税务局税企共建聚合力</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870657.html">红云红河集团工会召开第四届工会委员（...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200729_870655.html">红云红河集团工会举办第四届工会委员（...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870028.html">红云红河集团2020年烟叶评级职业技能竞...</a></li>
+								
+									<li><a href="http://www.hh.cn/hy/202007/t20200727_870027.html">曲靖市烟草专卖局到红云红河集团交流座谈</a></li>
+								
+							</ul>
+						
+					</div>
+				</div>
+			</div>
+			<!-- 横幅位置三 -->
+			
+						<div class="index-banner1    clearfix" style="margin-top: 20px;">
+							<div class="eee lf" style="height:80px;width:496px"><a class="lf" href="http://www.hh.cn/zt/2018/19/"><img style="width:496px;height:80px;" src="./syhf/dhf/201903/W020190311375338613439.jpg" /></a></div>
+							<div class="fff rt" style="height:80px;width:496px"><a class="rt" href="http://www.hh.cn/zt/yygg/"><img style="width:496px;height:80px;" src="./syhf/dhf/201903/W020190313580187820562.jpg" /></a></div>
+						</div>
+				
+			<div class="index-wrap2 mt20 clearfix">
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./wh/">文化</a>
+					</div>
+					<div class="index-newsbox-c">
+						
+						<div class="index-newsbox-img">
+							<a href="http://www.hh.cn/wh/wx/202006/t20200615_858979.html"><img src="./wh/wx/202006/W020200615376756235429.jpg" /><p>采莲</p></a>
+						</div>
+						
+						
+						<ul class="index-newsbox-l mt30">
+							
+							<li><a href="http://www.hh.cn/wh/wx/202006/t20200623_861270.html" >【风雨同行——我与《红河日报》】白鹇...</a></li>
+							
+							<li><a href="http://www.hh.cn/wh/wx/202006/t20200623_861269.html" >【风雨同行——我与《红河日报》】我与...</a></li>
+							
+							<li><a href="http://www.hh.cn/wh/wx/202006/t20200623_861268.html" >【风雨同行——我与《红河日报》】二十...</a></li>
+							
+							<li><a href="http://www.hh.cn/wh/wx/202006/t20200623_861266.html" >【风雨同行——我与《红河日报》】同舟...</a></li>
+							
+							<li><a href="http://www.hh.cn/wh/wx/202006/t20200623_861264.html" >【风雨同行——我与《红河日报》】与《...</a></li>
+							
+							<li><a href="http://www.hh.cn/wh/wx/202006/t20200623_861224.html" >【风雨同行——我与《红河日报》】日报...</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./hhsp/">视频</a>
+					</div>
+					<div class="index-newsbox-c">
+						
+						<div class="index-newsbox-img">
+							<a href="http://www.hh.cn/hhsp/07/202007/t20200723_869125.html">							
+								<img src="./hhsp/07/202007/W020200723346909081178.png" />
+								<p>第七次全国人口普查宣传片</p><span class="play"></span></a>
+						</div>
+					
+						<ul class="index-newsbox-l mt30">
+							
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200723_869125.html">第七次全国人口普查宣传片</a></li>
+							
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200723_869120.html">云南省第七次全国人口普查公益宣传之—...</a></li>
+							
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200723_869116.html">云南省第七次全国人口普查公益宣传之—...</a></li>
+							
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200701_863225.html">微视频｜感人瞬间——奋斗</a></li>
+							
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200701_863228.html">微视频｜感人瞬间——初心</a></li>
+							
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200701_863238.html">微视频｜感人瞬间——廖俊波</a></li>
+						
+						</ul>
+<!--//按照父级栏目下面的各级子栏目信息
+ 						
+						<div class="index-newsbox-img">
+							<a href="http://www.hh.cn/hhsp/07/202007/t20200723_869125.html">							
+								<img src="./hhsp/07/202007/W020200723346909081178.png" />
+								<p>第七次全国人口普查宣传片</p><span class="play"></span></a>
+						</div>
+						
+						<ul class="index-newsbox-l mt30">
+						
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200723_869125.html">第七次全国人口普查宣传片</a></li>
+						
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200723_869120.html">云南省第七次全国人口普查公益宣传之—...</a></li>
+						
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200723_869116.html">云南省第七次全国人口普查公益宣传之—...</a></li>
+						
+								<li><a href="http://www.hh.cn/hhsp/07/202007/t20200701_863225.html">微视频｜感人瞬间——奋斗</a></li>
+						
+								<li><a href="http://www.hh.cn/hhsp/07/202004/t20200415_833883.html">第五个全民国家安全教育日公益宣传片发布</a></li>
+						
+								<li><a href="http://www.hh.cn/hhsp/07/202003/t20200325_826681.html">致敬云南咸宁两地医护人员！云报集团联...</a></li>
+						
+						</ul>    -->                 
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="http://www.hh.cn/tdgg/">电网</a>
+					</div>
+					<!-- <div class="index-newsbox-c">
+                        
+						<div class="index-newsbox-gg ">
+							<a href="http://www.hh.cn/zt/2019/bjsp/"><img style="width:281px;height:110px;" src="./sygg/201909/W020190902597967046423.jpg" /></a><a href="http://www.hh.cn/hhsp/rdjj/201903/t20190315_600996.html"><img style="width:281px;height:110px;" src="./sygg/201903/W020190318387348453626.png" /></a><a href="https://club.hyhhgroup.com/"><img style="width:281px;height:110px;" src="./sygg/201903/W020190318373805718287.jpg" /></a>
+						</div>
+                        
+					</div> -->
+					<div class="index-newsbox-c">
+						
+						<div class="index-newsbox-img">
+							<a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_871032.html"><img src="./tdgg/qyzx/202007/W020200730630008150646.jpg" /><p>弥勒供电局召开2020年第一次...</p></a>
+						</div>
+						
+						<ul class="index-newsbox-l mt30">
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_871057.html" >南方电网云南红河县供电局多措并举全面...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_871032.html" >弥勒供电局召开2020年第一次监督委员会</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_870890.html" >弥勒供电局观摩市安全事故暨突发环境事...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200729_870684.html" >南方电网云南红河元阳供电局牛角寨供电...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200729_870656.html" >南方电网云南红河石屏供电局：全力备战...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200729_870595.html" >南方电网云南红河县供电局参加“纪律护...</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="index-wrap2 mt20 clearfix">
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./tdgg/">电网</a>
+					</div>
+					<div class="index-newsbox-c">
+						
+						<div class="index-newsbox-img">
+							<a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_871032.html"><img src="./tdgg/qyzx/202007/W020200730630008150646.jpg" /><p>弥勒供电局召开2020年第一次...</p></a>
+						</div>
+						
+						<ul class="index-newsbox-l mt30">
+							
+							<li><a href="http://www.hh.cn/tdgg/hh/202007/t20200730_871059.html" >红河县供电局2020年08月03日——08月09...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_871057.html" >南方电网云南红河县供电局多措并举全面...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_871032.html" >弥勒供电局召开2020年第一次监督委员会</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200730_870890.html" >弥勒供电局观摩市安全事故暨突发环境事...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/pb/202007/t20200729_870685.html" >屏边县2020年08月03日——08月09日无计...</a></li>
+							
+							<li><a href="http://www.hh.cn/tdgg/qyzx/202007/t20200729_870684.html" >南方电网云南红河元阳供电局牛角寨供电...</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./hhjr/">金融</a>
+					</div>
+					<div class="index-newsbox-c">
+						
+						<div class="index-newsbox-img">
+							<a href="http://www.hh.cn/hhjr/202008/t20200801_871359.html"><img src="" /><p>建行红河分行：“四大课堂”...</p></a>
+						</div>
+						
+						
+						<div class="index-newsbox-img">
+														
+							<a href="http://www.hh.cn/hhjr/202008/t20200801_871359.html"><img src=http://www.hh.cn/hhjr/202008/W020200801392328657137.jpg /><p>建行红河分行：“四大课堂”...</p></a>
+							
+						</div>
+						
+						<ul class="index-newsbox-l mt30">
+							
+							<li><a href="http://www.hh.cn/hhjr/202008/t20200801_871359.html" >建行红河分行：“四大课堂”让党员教育...</a></li>
+							
+							<li><a href="http://www.hh.cn/hhjr/202008/t20200801_871360.html" >华夏银行红河分行开展系列主题党日活动</a></li>
+							
+							<li><a href="http://www.hh.cn/hhjr/202008/t20200801_871361.html" >农行蒙自支行助推乡村振兴工作</a></li>
+							
+							<li><a href="http://www.hh.cn/hhjr/202008/t20200801_871348.html" >华夏银行红河分行开展庆祝建党99周年 “...</a></li>
+							
+							<li><a href="http://www.hh.cn/hhjr/202008/t20200801_871349.html" >泸西县联社党委召开领导干部及部门负责...</a></li>
+							
+							<li><a href="http://www.hh.cn/hhjr/202008/t20200801_871350.html" >农行红河分行与红河州邮政集团有限公司...</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="index-newsbox lf">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./sygg/">首页广告</a>
+					</div>
+					<div class="index-newsbox-c">
+                                                
+						<div class="index-newsbox-gg">
+							<a href="http://www.hh.cn/xw/03/"><img style="width:281px;height:110px;" src="./sygg/201903/W020190318421013055568.jpg" /></a><a href="http://www.hh.cn/zt/2016/09/index.html"><img style="width:281px;height:110px;" src="./sygg/201903/W020190318560290822034.jpg" /></a><a href="http://www.hh.cn/hhjr/index.html"><img style="width:281px;height:110px;" src="./sygg/201904/W020190412559783264917.jpg" /></a>
+						</div>
+                                                
+					</div>
+				</div>
+			</div> -->
+			<div class="index-wrap2 mt20 clearfix">
+				<div class="index-newsbox lf" style="width:620px;height:350px;">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="http://www.hh.gov.cn/zmhd/">红河州人民政府网便民服务</a>
+					</div>
+					<style>
+					.index-newsbox-k span{display: block; color: #000; height:34px; line-height:34px; vertical-align:middle;}
+					.index-newsbox-k li{ line-height:34px; height:34px; list-style:none; background-color:#fdfcfc; margin-top:3px; width:620px;}
+					.index-newsbox-k a{color: #393939;font-size: 14px;	}
+					.w160{width:160px;text-align: center;}
+					.w320{width: 320px;text-align: center;}
+					.w320t{width: 320px;overflow:hidden;white-space: nowrap;text-overflow: ellipsis;}
+					.w140{width: 140px;text-align: center;}	
+					</style>
+					<ul class="index-newsbox-k">
+						<li>
+							<a href="">
+								<span class="w160 lf">编号</span>							
+								<span class="lf w320">标题</span>
+								<span class="lf w140">时间</span>                    
+							</a>
+						</li>
+						<div class="clearfix"></div>
+                    </ul>
+				</div>
+				<div class="index-newsbox lf" style="height:350px;">
+					<div class="index-newsbox-t">
+						<a class="tit cur" href="./jkq/">经开区</a>
+					</div>
+					<div class="index-newsbox-c">
+						<!-- <div class="index-newsbox-banner">
+							<a href="./hy/"><img src="" /></a>
+						</div> -->
+						
+							<ul class="index-newsbox-l">
+								
+									<li><a href="http://www.hh.cn/jkq/202008/t20200801_871362.html">蒙自经开区组织开展百日攻坚创文活动</a></li>
+								
+									<li><a href="http://www.hh.cn/jkq/202008/t20200801_871363.html">蒙自经开区举办创文问卷调查知识培训会</a></li>
+								
+									<li><a href="http://www.hh.cn/jkq/202008/t20200801_871364.html">蒙自经开区扎实做好“六稳”工作 全面落...</a></li>
+								
+									<li><a href="http://www.hh.cn/jkq/202008/t20200801_871365.html">蒙自经开区圆满完成2019年度政府总决算...</a></li>
+								
+									<li><a href="http://www.hh.cn/jkq/202008/t20200801_871366.html">绿色食品深加工及清洁能源智慧物流园项...</a></li>
+								
+									<li><a href="http://www.hh.cn/jkq/202008/t20200801_871367.html">蒙自经开区举行党工委理论学习中心组及...</a></li>
+								
+									<li><a href="http://www.hh.cn/jkq/202007/t20200716_867223.html">蒙自经开区与中国（云南）自贸区红河片...</a></li>
+								
+									<li><a href="http://www.hh.cn/jkq/202007/t20200716_867234.html">蒙自经开区：凝心聚力齐动员 同心共创文...</a></li>
+								
+							</ul>
+						
+					</div>
+				</div>
+			</div>
+			
+						<div class="index-banner1  clearfix" style="margin-top: 20px;">		
+					
+							<div id="aaaa" class="lf" style="height:75px;width:192px; margin-right: 10px;">
+								
+								<a class="lf" href="http://www.hh.cn/hhsp/rdjj/201903/t20190315_600996.html"><img style="width:192px;height:75px;" src="./sygg/201903/W020190318387348453626.png" /></a>
+															
+							</div>
+							<script language="javascript">
+								new $o.slide("aaaa",{color:'#000'},false);
+							</script> 														
+					
+							<div id="bbbb" class="lf" style="height:75px;width:192px; margin-right: 10px;">
+								
+								<a class="lf" href="https://club.hyhhgroup.com/"><img style="width:192px;height:75px;" src="./sygg/201903/W020190318373805718287.jpg" /></a>
+															
+							</div>
+							<script language="javascript">
+								new $o.slide("bbbb",{color:'#000'},false);
+							</script> 	
+
+							<div id="cccc" class="lf" style="height:75px;width:192px; margin-right: 10px;">
+								
+								<a class="lf" href="http://www.hh.cn/zt/2019/bjsp/"><img style="width:192px;height:75px;" src="./sygg/201909/W020190902597967046423.jpg" /></a>
+															
+							</div>
+							<script language="javascript">
+								new $o.slide("cccc",{color:'#000'},false);
+							</script> 	
+
+							<div id="dddd" class="lf" style="height:75px;width:192px; margin-right: 10px;">
+								
+								<a class="lf" href="http://www.hh.cn/xw/03/"><img style="width:192px;height:75px;" src="./sygg/201903/W020190318421013055568.jpg" /></a>
+								
+								<a class="lf" href="http://www.hh.cn/zt/2016/09/index.html"><img style="width:192px;height:75px;" src="./sygg/201903/W020190318560290822034.jpg" /></a>
+															
+							</div>
+							<script language="javascript">
+								new $o.slide("dddd",{color:'#000'},false);
+							</script> 	
+				
+							<div id="eeee" class="rt" style="height:75px;width:192px">
+								
+								<a class="rt" href="http://www.hh.cn/hhjr/index.html"><img style="width:192px;height:75px;" src="./sygg/201904/W020190412559783264917.jpg" /></a>
+									
+							</div>
+							<script language="javascript">
+								new $o.slide("eeee",{color:'#000'},false);
+							</script> 						
+
+						</div>
+
+			<div class="index-wrap3 mt20">
+				<div class="index-newsbox-t">
+					<a class="tit cur" href="./hhrm/">融媒</a>
+					<div class="index-newsbox-pg index-pg-tit index-pg-tit3 mt10 rt">
+						<span class="prev"></span>
+						<span class="next"></span>
+					</div>
+				</div>
+				<div class="index-wrap3-c index-pg-tab index-pg-tab3" style="height:275px;">
+					<div class="index-pg-item index-pg-item3">
+						<table>
+						
+							<tr>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190307630603320016.png./hhrm/201903/W020190307630604251256.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="掌上红河" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190307630603320016.png./hhrm/201903/W020190307630604251256.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="掌上红河" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190307620628657271.png./hhrm/201903/W020190308370220736574.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn/hhrm/201903/t20190307_590019.html"><img src="./'+FJarr[i]+'" alt="红河日报" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190307620628657271.png./hhrm/201903/W020190308370220736574.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn/hhrm/201903/t20190307_590019.html"><img src="./'+FJarr[i]+'" alt="红河日报" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308347464425241.png./hhrm/201903/W020190308347465325200.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="红河日报新浪微博" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308347464425241.png./hhrm/201903/W020190308347465325200.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="红河日报新浪微博" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190307629527058054.png./hhrm/201903/W020190307629527987546.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="人文红河" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190307629527058054.png./hhrm/201903/W020190307629527987546.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="人文红河" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190416588884815590.png./hhrm/201903/W020190307632456588281.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="中国红河网微信" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190416588884815590.png./hhrm/201903/W020190307632456588281.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="中国红河网微信" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+							</tr>
+						
+							<tr>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308372679677491.png./hhrm/201903/W020190308372680590002.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn/"><img src="./'+FJarr[i]+'" alt="红报小记者" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308372679677491.png./hhrm/201903/W020190308372680590002.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn/"><img src="./'+FJarr[i]+'" alt="红报小记者" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190416590575456515.png./hhrm/201903/W020190308374049197542.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="红报商城" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190416590575456515.png./hhrm/201903/W020190308374049197542.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="红报商城" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308377116055925.jpg./hhrm/201903/W020190308377116958600.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="脱贫攻坚在行动" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308377116055925.jpg./hhrm/201903/W020190308377116958600.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="脱贫攻坚在行动" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308371549754459.png./hhrm/201903/W020190308371550550288.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="红河现代农业" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190308371549754459.png./hhrm/201903/W020190308371550550288.jpg';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="http://www.hh.cn"><img src="./'+FJarr[i]+'" alt="红河现代农业" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+<!-- <script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190509403326771508.jpg./hhrm/201903/W020190509403327892535.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="https://weixin.sogou.com/weixin?type=1&query=%E7%BA%A2%E6%B2%B3%E5%B7%9E%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E7%BD%91"><img src="./'+FJarr[i]+'" alt="红河州政府网" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script> -->
+<script type="text/javascript">
+	var hasFJ='./hhrm/201903/W020190509403326771508.jpg./hhrm/201903/W020190509403327892535.png';
+	if(hasFJ!=''){
+		var FJarr=hasFJ.split("./")
+		for(var i=1;i<FJarr.length-1;i++){
+			document.write('<td><a target="_self" href="https://weixin.sogou.com/weixin?type=1&query=%E7%BA%A2%E6%B2%B3%E5%B7%9E%E4%BA%BA%E6%B0%91%E6%94%BF%E5%BA%9C%E7%BD%91"><img src="./'+FJarr[i]+'" alt="红河州政府网" style="width:125px;height:45px;" /><div><img src="./'+FJarr[i+1]+'" style="width:78px;height:78px;" /></div></a></td>');
+		}
+	}
+</script>
+								
+							</tr>
+						
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="centerWidth">
+		<div class="vh-friend-link clearfix">
+			<div class="vh-link-tit">
+				<p class="tit lf">友情链接</p>
+				<p class="clearfix list lf">
+					<a class="cur">州内网站</a>
+					<a>省内网站</a>
+					<a>国内网站</a>
+				</p>
+			</div>
+			<div class="vh-friend-group">
+				<div class="vh-friend-item mt20 clearfix">
+					
+                	                     <a href="http://www.hh.gov.cn/">红河州人民政府</a>
+                                        
+                	                     <a href="http://www.hhrd.gov.cn/">红河人大网</a>
+                                        
+                	                     <a href="http://www.hhzzx.gov.cn/">红河州政协</a>
+                                        
+                	                     <a href="http://www.jjjc.hh.cn/">红河州纪委</a>
+                                        
+                	                     <a href="http://www.kydj.gov.cn/">开远党建网</a>
+                                        
+                	                     <a href="http://www.hhzmz.cn/">红河民族宗教网</a>
+                                        
+                	                     <a href="http://www.hhpingbian.cn/index1.html">中国屏边网</a>
+                                        
+                	                     <a href="http://www.hhzjp.cn/">中国金平网</a>
+                                        
+                	                     <a href="http://www.cnhhmz.com/">中国蒙自网</a>
+                                        
+                	                     <a href="http://ynmz.wenming.cn/">蒙自文明网</a>
+                                        
+                	                     <a href="http://www.hh.cn/xjz/">红报小记者</a>
+                                        
+                	                     <a href="http://www.hhwm.gov.cn/">红河文明网</a>
+                                        
+				</div>
+				<div class="vh-friend-item mt20 clearfix" style="display: none;">
+					
+                	                     <a href="http://www.yn.gov.cn/">云南省人民政府</a>
+                                        
+                	                     <a href="http://www.yunnan.cn/">云南网</a>
+                                        
+                	                     <a href="http://www.yn.xinhuanet.com/">新华网云南频道</a>
+                                        
+                	                     <a href="http://www.ynzp.com/hh/">云南招聘网</a>
+                                        
+                	                     <a href="http://www.chuxiong.cn/">云南楚雄网</a>
+                                        
+				</div>
+
+				<div class="vh-friend-item mt20 clearfix" style="display: none;">
+					
+                	                     <a href="http://www.xinhuanet.com/">新华网</a>
+                                        
+                	                     <a href="http://www.people.com.cn/">人民网</a>
+                                        
+                	                     <a href="http://www.cctv.cn/">中国中央电视台</a>
+                                        
+                	                     <a href="http://www.qq.com/">腾讯</a>
+                                        
+                	                     <a href="http://www.163.com/">网易</a>
+                                        
+                	                     <a href="http://www.sohu.com/">搜狐</a>
+                                        
+                	                     <a href="http://www.zhfengmi.com/">新浪</a>
+                                        
+                	                     <a href="http://www.zhfengmi.com/">中华蜂蜜网</a>
+                                        
+				</div>
+			</div>
+		</div>
+	</div><div class="vh-footer-box mt30">
+		<div class="centerWidth clearfix">
+			<a class="logo lf"><img src="http://www.hh.cn/images/vh-footer-logo.png" /></a>
+			<p class="lf link" style=" width: 273px;">
+				<a href="../../">首页</a>
+				<a href="http://www.hh.cn/xw/">新闻</a>
+				<a href="http://www.hh.cn/zt/qtzt/">专题</a>
+				<a href="http://www.hh.cn/zq/">州情</a>
+				<a href="http://www.hh.cn/wh/">文化</a>
+				<a href="">融媒</a>
+				<a href="http://www.honghe.travel">旅游</a>
+				<a href="http://tuku.hh.cn/">图库</a>
+				<a href="http://www.hh.cn/gg/ggej/">公告</a>
+                                <a href="http://www.hh.cn/hhsp/">视频</a>
+				<a href="http://www.hh.cn/hy/">红云</a>
+				<a href="http://www.hh.cn/tdgg/">电网</a>
+			</p>
+			<div class="img rt">
+<a href="http://www.12377.cn/"><img src="http://www.hh.cn/images/vh-footer-img01.jpg" /></a>
+<a href="http://www.cyberpolice.cn/wfjb/html/index.shtml"><img src="http://www.hh.cn/images/vh-footer-img02.jpg" /></a>
+<a href="http://t.knet.cn/"><img src="http://www.hh.cn/images/vh-footer-img03.jpg" /></a>
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=53250302000119"><img src="http://www.hh.cn/images/vh-footer-img04.jpg" /></a>
+<a href="http://www.hh.cn"><img src="http://file.component.hhzc.cn/hhcn/image/投稿邮箱.jpg" /></a>
+<a href="https://www.anquan.org/search?keyword=www.hh.cn" style="text-align: center;"><img width="65" height="80" src="http://www.hh.cn/images/vh-footer-img05.jpg" /></a>
+<!-- <a href="javascript:;"><img width="65" height="80" src="http://www.hh.cn/images/vh-footer-img06.jpg" /></a> -->
+			</div>
+		</div>
+	</div>
+	<div class="vh-footer-detail">
+		<div class="centerWidth">
+			<p><a>中共红河州委宣传部主管</a>　<a href="/img/xwxkz.jpg" target="_blank">互联网新闻信息服务许可证：53120180020</a></p>
+			<p><a>滇ICP备11001687号</a>　<a>网络视听许可证2510473号</a>　<a>中国红河网版权所有</a> 举报电话：<a>0873-3055023 新闻热线：3055077 3055079</a>
+<script id="_trs_ta_js" src="//ta.trs.cn/c/js/ta.js?mpid=2975" async="async" defer="defer"></script>
+
+<script type="text/javascript" src="https://s11.cnzz.com/z_stat.php?id=2063097&web_id=2063097"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3d73b9b9f0baa78fd1c049c638d81892";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+			</p>
+
+
+		</div>
+	</div>
+	<!-- go top -->
+	<div class="vh-go-top">回到顶部</div>
+<style>
+.index-banner4 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.index-banner4-img {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+}
+.index-banner2 a {
+    display: inline-block;
+    width: 159px;
+}
+.vh-fade-list{overflow: hidden; position: relative; }
+.ttt{position: absolute; }
+.ccc{overflow: hidden; position: relative; }
+.ddd{overflow: hidden; position: relative; }
+.ccc .lf{position: absolute; }
+.ddd .rt{position: absolute; }
+.eee{overflow: hidden; position: relative; }
+.fff{overflow: hidden; position: relative; }
+.eee .lf{position: absolute; }
+.fff .rt{position: absolute; }
+.aaa{overflow: hidden; position: relative; }
+.bbb{overflow: hidden; position: relative; }
+.aaa .lf{position: absolute; }
+.bbb .rt{position: absolute; }
+
+</style>
+<div class="dqwz" style="display:none"><a href="http://www.hh.cn/" title="中国红河网" class="CurrChnlCls">中国红河网</a></div>
+<script>
+//栏目驻留效果
+	//当前位置颜色和样式
+	$('.dqwz a').css('float','inherit');
+	$('.dqwz a:last').css({'float':'inherit','color':'red'});
+	//顶部导航
+	$('.vh-nav-list a').eq(0).addClass("cur");
+var text2=$('.dqwz a').eq(0).attr("href");
+$(".vh-logo-search .logo").after('<a class="zq-btn" href="'+text2+'">首页</a>');
+$(function(){
+	$(".ttt").simpleSwitch({
+	    playTime:3000,
+	    type:'top',
+	});
+    $(".ccc .lf").simpleSwitch({
+        playTime:3000,
+        type:'top',
+    });
+    $(".ddd .rt").simpleSwitch({
+        playTime:3000,
+        type:'top',
+    });
+    $(".eee .lf").simpleSwitch({
+        playTime:3000,
+        type:'top',
+    });
+    $(".fff .rt").simpleSwitch({
+        playTime:3000,
+        type:'top',
+    });
+
+
+    $(".aaa .lf").simpleSwitch({
+        playTime:3000,
+        type:'top',
+    });
+    $(".bbb .rt").simpleSwitch({
+        playTime:3000,
+        type:'top',
+    });
+
+$.get("/lib/json/hhMap.json").then(function(mapData){
+		echarts.registerMap('nxamp', mapData);
+		var geoCoordMap = {
+			"绿春县":[102.382054472656,23.0005837226563],
+			"石屏县":[102.32334109375,23.8113971992188],
+			"建水县":[103.017345,23.7238430000001],
+			"红河县":[102.177345,23.173843],
+			"元阳县":[102.621803007813,23.0082741523438],
+			"河口瑶族自治县":[103.717994414063,22.8404177070313],
+			"开远市":[103.26166140625,23.769341046875],
+			"蒙自市":[103.471429472656,23.4579274726563],
+			"弥勒县":[103.417345,24.433843],
+			"屏边苗族自治县":[103.751519804688,23.0280178046875],
+			"泸西县":[103.817345,24.433843],
+			"个旧市":[103.071429472656,23.2579274726563],
+			"金平苗族瑶族傣族自治县":[103.021803007813,22.8082741523438],
+		};
+		var BJData = [
+			{name:'绿春县',value:100},
+			{name:'石屏县',value:100},
+			{name:'建水县',value:100},
+			{name:'红河县',value:100},
+			{name:'元阳县',value:100},
+			{name:'河口瑶族自治县',value:100},
+			{name:'开远市',value:100},
+			{name:'蒙自市',value:100},
+			{name:'弥勒县',value:100},
+			{name:'屏边苗族自治县',value:100},
+			{name:'泸西县',value:100},
+			{name:'个旧市',value:100},
+			{name:'金平苗族瑶族傣族自治县',value:100},
+		];
+		var option = {
+			tooltip : {
+				show:false,
+				trigger: 'item',
+				formatter: "{a} <br/>{b} : {c} ({d}%)"
+			},
+			geo: [
+			{
+				map: 'nxamp',
+				layoutCenter: ['50%', '50%'],
+				layoutSize: 350,
+				label: {
+					normal: {
+						show:true,
+						color: '#fff'
+					},
+					emphasis: {
+						show: true,
+						color: '#cafeff'
+					}
+				},
+				itemStyle: {
+					normal: {
+						areaColor: '#5ea0d2',
+						borderColor: '#fff',
+						borderWidth: '1',
+						color: '#3f90c1',
+						// shadowBlur: 40,
+						shadowColor: '#3f90c1'
+					},
+					emphasis: {
+						areaColor: '#ff7a45',
+						show: true,
+						formatter: ' ',
+						borderColor: '#fff'
+					}
+				},
+				nameMap:{
+                	"金平苗族瑶族傣族自治县":"金平县",
+                	"河口瑶族自治县":"河口县",
+                	"屏边苗族自治县":"屏边县",
+                },
+				zlevel: 0
+			}
+			],
+			series : [
+			{
+                map: 'nxamp', // 自定义扩展图表类型
+                type: 'map',
+                layoutCenter: ['350%', '50%'],
+                layoutSize: 350,
+                label: {
+                    normal: {
+                        show: true,
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        show: true,
+                        color: '#cafeff'
+                    }
+                },
+                itemStyle: {
+                    normal: {
+                        areaColor: 'red',
+                        borderColor: '#fff',
+                        borderWidth: '1'
+                    },
+                    emphasis: {
+                        areaColor: '#ff7a45',
+                        show: true,
+                        formatter: '',
+                        borderColor: '#fff'
+                    }
+                },
+                data: BJData.map(function(dataItem) {
+                	if(!geoCoordMap[dataItem.name]) return;
+                	return {
+                		name: dataItem.name,
+                		value: geoCoordMap[dataItem.name].concat([
+                			dataItem.value
+                			])
+                	};
+                }),
+                nameMap:{
+                	"金平苗族瑶族傣族自治县":"金平县"
+                },
+                zlevel: 0
+            },
+            {
+                coordinateSystem: 'geo',
+                type: 'effectScatter',
+                layoutCenter: ['350%', '50%'],
+                layoutSize: 350,
+                rippleEffect: {
+                    brushType: 'stroke'
+                },
+                hoverAnimation: true,
+                showEffectOn: 'render',
+                symbolSize: 10,
+                itemStyle: {
+                    normal: {
+                        color: '#fff',
+                        shadowBlur: 20,
+                        shadowColor: '#fff'
+                    }
+                },
+                data: BJData.map(function(dataItem) {
+                	if(!geoCoordMap[dataItem.name]) return;
+                	return {
+                		name: dataItem.name,
+                		value: geoCoordMap[dataItem.name].concat([
+                			dataItem.value
+                			])
+                	};
+                }),
+                nameMap:{
+                	"金平苗族瑶族傣族自治县":"金平县"
+                },
+            }
+			]
+		};
+		var urls = [
+			{
+				name:'绿春县',
+				url:'http://www.hh.cn/xw/lcxw/',
+			},
+			{
+				name:'石屏县',
+				url:'http://www.hh.cn',
+			},
+			{
+				name:'建水县',
+				url:'http://www.hh.cn',
+			},
+			{
+				name:'红河县',
+				url:'http://www.hh.cn/xw/hhxw/',
+			},
+			{
+				name:'元阳县',
+				url:'http://www.hh.cn/xw/yyxw/',
+			},
+			{
+				name:'河口县',
+				url:'http://www.hh.cn/xw/hkxw/',
+			},
+			{
+				name:'开远市',
+				url:'http://www.hh.cn/xw/kyxw/',
+			},
+			{
+				name:'蒙自市',
+				url:'http://www.cnhhmz.com',
+			},
+			{
+				name:'弥勒县',
+				url:'http://www.hh.cn/xw/mlxw/',
+			},
+			{
+				name:'屏边县',
+				url:'http://www.hhpingbian.cn',
+			},
+			{
+				name:'泸西县',
+				url:'http://www.hh.cn/xw/lxxw/',
+			},
+			{
+				name:'个旧市',
+				url:'http://www.hh.cn/xw/gjsxw/',
+			},
+			{
+				name:'金平县',
+				url:'http://www.hhzjp.cn',
+			}
+		];
+		var mychart = echarts.init(document.getElementById('hhMapEchart'));
+		mychart.setOption(option);
+		/**
+		 * 点击跳转，添加
+		 */
+		mychart.on('click',function(item){
+			for(var i = 0; i < urls.length; i ++) {
+				if(item.name==urls[i].name) {
+					window.open(urls[i].url);
+				}
+			}
+		});
+	})
+});
+</script>
+</body>
+</html>
