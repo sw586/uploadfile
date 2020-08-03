@@ -7,4 +7,4 @@
 #ssh-keygen -t rsa -C "sw586@126.com" //一直回车
 #打开：/root/.ssh/id_rsa.pub 复制到https://github.com/settings/keys ----SSH keys
 #2、执行git config --global credential.helper store
-git add .  &&  git commit -m "`date "+%Y-%m-%d_%H-%M-%S"`"  &&  git push -u origin +master
+git add .  &&  git commit -m "`date "+%Y-%m-%d_%H-%M-%S"`"  &&  git push -u origin +master  &&  curl "http://2ht.cn/index.php?s=api&c=run"
